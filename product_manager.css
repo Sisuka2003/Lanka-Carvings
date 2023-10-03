@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #877c7c;
+    font-family:sans-serif;
+}
+
+
+.tb-div{
+    width:100%;
+    height:12vh;
+    background: #615555;
+    display: flex;
+    justify-content: center;
+}
+
+.col1{
+    width:10%;
+    height: 100%;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+    background-image:url(images/carpenter.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+.col2{
+width: 70%;
+height: 100%;
+}
+
+.col3{
+    width: 20%;
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.backButton{
+    background-color:transparent;
+    border-style:solid;
+    border-radius:15vh;
+    border-color: #fcefdb;
+    outline:none;
+    cursor:pointer;
+    color:#fcefdb;
+    width: 25vh;
+    height: 5vh;
+}
+
+.backButton:hover{
+    background-color: #d7ad7b;
+    border-color: #d7ad7b;
+    box-shadow: 0px 0px 5px black;
+    transition: 0.5s;
+    color:#fcefdb;
+}
+
+.backButton-anchor{    
+    text-decoration:none;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-weight:lighter;
+    font-size:100%;
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.backButton-anchor:hover{
+    transition:0.5s;
+    color:black;
+    font-weight: bold;
+    letter-spacing: 3px;
+}   
+
+.bn{
+    transition: 0.5s;
+    display: flex;
+    width: 40vh;
+    height: 10vh;
+    margin: 11vh auto;
+    cursor: pointer;
+    justify-content: space-around;
+    align-items: center;
+    outline: none;
+    border-style: solid;
+    border-color: #3d2002;
+}
+
+button:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 40px white;
+    border-radius: 10px;
+}
+
+.anchor-product{
+    text-decoration: none;
+    color: black;
+}
+
+        
+.ft{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(215,222,216);
+    text-align: center;
+}

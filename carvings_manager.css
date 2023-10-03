@@ -1,0 +1,170 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: #d7ad7b;
+}
+
+span{
+    color: white;
+    font-weight:bold;
+    margin-left: 2%;
+    font-family: "Poppins",sans-serif;
+}
+.inputs{
+    display: inline-block;
+    margin-top: 5vh;
+    transition: 0.5s;
+    width: 40vh;
+    height: 5vh;
+    border-style:solid;
+    border-color: #877c7c;
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.inputs:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 40px white;
+    cursor: text;
+}
+
+.updateButton{
+    margin-left: 4%;
+    display: inline-block;
+    margin-top: 5%;
+    outline: none;
+    background-color: #3d2002;
+    border-style: solid;
+    border-color: #dddddd;
+    cursor: pointer;
+    height: 5vh;
+    font-family: "Poppins",sans-serif;
+    width: 20vh;
+    color: white;
+}
+
+.Back{
+    margin-left: 4%;
+    position:absolute;
+    margin-top: 5%;
+    outline: none;
+    background-color: #3d2002;
+    border-style: solid;
+    border-width: 0.35vh;
+    border-color: #dddddd;
+    cursor: pointer;
+    height: 5vh;
+    width: 20vh;
+}
+
+.aBack{
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins",sans-serif;
+}
+
+
+.inputs-a{
+    transition: 0.5s;
+    width: 40%;
+    height: 5vh;
+    border-style:solid;
+    border-color: #877c7c;
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.inputs-a:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 40px white;
+    cursor: text;
+}
+
+.form-a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.searchButton{
+    font-family: "Poppins",sans-serif;
+    outline: none;
+    background-color: #3d2002;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #dddddd;
+    cursor: pointer;
+    height: 5vh;
+    width: 20vh;
+    color: white;
+    margin-left: 3%;
+}
+
+.aDelete{
+text-decoration: none;
+color: red;
+font-family: sans-serif;
+font-weight: bold;
+display: flex;
+    font-family: "Poppins",sans-serif;
+justify-content: center;
+}
+
+table{
+    font-family: aerial,sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background: #dddddd;
+}
+
+th{
+    border:2px solid black ;
+    padding:8px;
+    background:#454141 ;
+    color: white;
+    font-size: 0.7rem;
+    font-family: "Poppins",sans-serif;
+    text-transform: uppercase;
+}
+
+.descriptionth{
+    border:2px solid black ;
+    padding:8px;
+    background:#454141 ;
+    color: white;
+    font-size: 0.7rem;
+    font-family: "Poppins",sans-serif;
+    text-transform: uppercase;
+    width: 20%;
+}
+
+td{
+    border:2px solid black ;
+    padding:8px;
+    font-family: "Poppins",sans-serif;
+    cursor: pointer;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+
+.data-row{
+    height: 10vh;
+    text-align: center;
+}
+
+@media screen and (max-width:937px){
+    .Delete{
+    margin-left: 30vh;
+    }
+}
